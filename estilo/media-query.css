@@ -18,8 +18,7 @@ GRANDES TELAS: ACIMA DE 1200PX
     section#login > div#imagem{
         float: left;
         height: 100%;
-        width: 30vw;
-        max-width: 190px;
+        width: 40%;
     }
 
     section#login > div#formulario{
