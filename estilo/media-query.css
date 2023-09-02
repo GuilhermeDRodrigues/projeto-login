@@ -10,6 +10,10 @@ GRANDES TELAS: ACIMA DE 1200PX
 */
 
 @media screen and (orientation: landscape) and (max-width: 767px){
+    body{
+        background-image: linear-gradient( to right, var(--cor2), var(--cor4));
+    }
+    
     section#login{
         min-width: 400px;
         max-width: 700px;
