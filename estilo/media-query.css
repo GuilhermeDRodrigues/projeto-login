@@ -15,9 +15,12 @@ GRANDES TELAS: ACIMA DE 1200PX
     }
 
     section#login{
+        
+        top: 170px;
         min-width: 400px;
         max-width: 700px;
-
+        height: 300px;
+      
     } 
 
     section#login > div#imagem{
