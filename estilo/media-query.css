@@ -15,11 +15,9 @@ GRANDES TELAS: ACIMA DE 1200PX
     }
 
     section#login{
-        
-        top: 170px;
         min-width: 400px;
         max-width: 700px;
-        height: 300px;
+        height: 330px;
       
     } 
 
@@ -31,8 +29,7 @@ GRANDES TELAS: ACIMA DE 1200PX
 
     section#login > div#formulario{
         float: right;
-        width: 55%;
-        
+        width: 60%;
     }
     
 }
@@ -41,14 +38,20 @@ GRANDES TELAS: ACIMA DE 1200PX
     body{
         background-image: linear-gradient( to right, var(--cor2), var(--cor4));
     }
+
+    div#formulario > p::after{
+        content: ", faça login para acessar sua conta." ;
+    }
+
     section#login{
         max-width: 90vw;
+        height: 350px;
     }
 
     section#login > div#imagem{
         float: left;
         height: 100%;
-        width: 40%;
+        width: 45%;
     }
 
     section#login > div#formulario{
@@ -67,9 +70,15 @@ GRANDES TELAS: ACIMA DE 1200PX
     body{
         background-image: linear-gradient( to left, var(--cor2), var(--cor4));
     }
+
+    div#formulario > p::after{
+        content: ", faça login para acessar sua conta." ;
+    }
+
     section#login{
         width: 90vw;
         max-width: 1000px;
+        height: 400px;
     }
 
     section#login > div#imagem{
@@ -81,7 +90,7 @@ GRANDES TELAS: ACIMA DE 1200PX
     section#login > div#formulario{
         float: left;
         height: 100%;
-        width: 50%;
+        width: 55%;
     }
 
      div#formulario > p{
